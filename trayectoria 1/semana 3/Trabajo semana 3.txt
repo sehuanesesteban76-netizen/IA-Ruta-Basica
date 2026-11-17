@@ -1,0 +1,145 @@
+Trabajo semana 3
+
+Aquí se adjuntara el link de la pagina que creamos con IA
+link: https://l-eme-modo-lector-tactil.ai.studio/
+Se puede poner en una ventana de Google y se mostrara la pagina
+
+Prompts utilizados:
+Prompt 1 (Este prompt no es con el que se hizo la pagina pero nos ayudo a hacer mejor la idea de como queríamos que sea e hicimos el segundo prompt):
+Actúa como un Diseñador UX/UI Senior y Desarrollador Web Full-Stack especializado en tecnología educativa e inclusiva (accesibilidad WCAG 2.1 AAA).
+
+Necesito que me ayudes a estructurar y codificar una plataforma web de aprendizaje interactivo diseñada para mejorar las habilidades de lectura en personas con dislexia.
+
+---
+
+### 1. PÚBLICO OBJETIVO Y PERFIL DE USUARIO
+- Edad: Desde los 7 u 8 años en adelante (sin límite de edad superior).
+- Prerrequisitos del usuario: Saben leer y escribir a nivel básico, y tienen experiencia previa navegando en sitios web.
+- Condición principal: Tienen dislexia o dificultades de procesamiento lector/visuoperceptivo.
+
+---
+
+### 2. ARQUITECTURA Y DISEÑO DE INTERFAZ (UX/UI ADAPTATIVA)
+Debes considerar las siguientes pautas de accesibilidad para la dislexia:
+- Tipografía por defecto: Opción de alternar entre fuentes sans-serif claras (Arial, Verdana) y fuentes diseñadas para dislexia (OpenDyslexic o Lexend).
+- Ajustes visuales personalizables por el usuario:
+  * Tamaño de fuente dinámico y espaciado de letras/líneas regulable.
+  * Selector de temas/contrastes: Modo claro (evitando el blanco puro `#FFF`, usar tonos crema/pastel), modo oscuro equilibrado y filtro de alto contraste.
+  * Regla o guía de lectura flotante (overlay horizontal) para seguir la línea activa con el puntero/mouse.
+- Interfaz limpia: Diseño minimalista, bajo nivel de distracción, con jerarquía visual fuerte e iconografía clara que acompañe al texto.
+Experienciad de usuario enfocado a la población dislexica. Justificarlo y diferenciarlo a  una persona neurótica
+Que se pueda traducir a otros idiomas
+---
+
+### 3. FUNCIONALIDADES CLAVE Y MÓDULOS DE APRENDIZAJE
+Genera las propuestas y el código base para los siguientes módulos:
+1. Módulo de Ejercicios Interactivos:
+   - Discriminación visual de letras confundibles (ej. b/d, p/q, m/n).
+   - Segmentación silábica y conciencia fonológica (armar palabras, identificar sílabas).
+   - Lectura guiada a velocidad regulable (resaltado palabra por palabra con síntesis de voz / Text-to-Speech integrado).
+2. Panel de Ajustes de Accesibilidad:
+   - Menú accesible en todo momento para personalizar tipografía, colores, tamaño y herramientas de lectura.
+3. Gamificación y Progreso:
+   - Retroalimentación positiva continua (sin penalizaciones destructivas).
+   - Indicadores visuales sencillos de avance (barras de progreso, medallas).
+
+—
+
+
+### 4. STACK TECNOLÓGICO SUGERIDO
+- Frontend: React / Next.js / HTML5 interactivo con Tailwind CSS.
+- Audio / Voz: Web Speech API (síntesis de voz nativa del navegador).
+- Estado/Persistencia: Guardar las preferencias de accesibilidad del usuario en LocalStorage.
+
+---
+
+### ENTREGABLE REQUERIDO:
+Por favor, responde con:
+1. La estructura de navegación (Sitemap y flujo de usuario).
+2. La arquitectura de componentes de la aplicación.
+3. El código funcional (HTML/JS/Tailwind o React) para el prototipo de la pantalla principal de lectura adaptativa con el panel de accesibilidad funcional (cambio de fuente, fondo y Text-to-Speech).
+
+
+¿Cuál es el rango de edad prioritario? Aunque la lectura funcional aplica a varias edades, la interfaz para niños de 8 años (gamificada, con ilustraciones y colores vivos) difiere sustancialmente de la de un estudiante universitario o adulto (sobria, minimalista y centrada en productividad).
+
+Ambas, qué sea una interfaz para niños y otra para adultos
+
+¿Qué rol tendrá el acompañante? ¿La plataforma la usará el usuario final de forma autónoma, o necesitas un panel para docentes, terapeutas o padres que asignen ejercicios y vean reportes?
+
+Agregar un chat o agente de IA que haga las veces de acompañante, tenga habilidades de tutor y por ejemplo para la parte de los niños sea un animal o un muñequito que lo sienta acompañado como Duo de Duolingo, como el animal de la página y tenga un nombre corto tierno y fácil de recordar y su forma de expresarse sea mas interactivo, con lenguaje facil
+Para el caso de un adulto lo mismo, pero enfocando el personaje en función de la edad tanto en diseño como en forma de expresarse
+- En los dos modelos (uno enfocado a niños y otro enfocado a adultos) que tenga también habilidades psicoemocionales para motivar al usuario
+Para ingresar a la página se haga un test para medir en nivel de dislexia de uno a cinco (hacer investigación preliminar de los parámetros de intervención para la mejora de habilidades de lecto escritura para disléxicos Y tambien hacer la investigación para definir los parametros de clasificación del grado de dislexia) que presenta el usuario acompañado del chat bot que se creara anteriormente y así definir el nivel de dislexia que el usuario tiene.
+
+
+
+
+2. Diseño Visuoperceptivo y Accesibilidad (UI/UX)
+¿Qué herramientas de apoyo visual prefieres incluir desde el inicio?
+Guía/regla de lectura flotante (overlay).
+Enmascarador de pantalla (oscurecer todo excepto la línea que se lee).
+Conversor de texto a voz (Text-to-Speech) y voz a texto (Speech-to-Text).
+Opción de separar sílabas por colores (ej. ca-sa en colores alternados).
+¿Qué paleta de color o estilo visual buscas? ¿Prefieres fondos pastel suave (crema/amarillo tenue) o un control total mediante temas personalizables por el usuario?
+Buenas practicas porque la página solo tendrá el fronend (ux ax)
+Paleta de colores enfocada a la psicología del aprendizaje 
+Tecnologías base al tema del proyecto
+Investigar sobre las estrategias que se han implementado virtualmente para el aprendizaje de la población dislexica.
+
+
+3. Dinámica de los Ejercicios e Interactividad
+¿Qué tipo de actividades mecánicas quieres incluir?
+Arrastrar y soltar (Drag and Drop) para armar palabras.
+Selección múltiple con apoyo de audio.
+Resaltado dinámico de texto al ritmo de la voz.
+Identificación de letras especulares (b/d, p/q).
+¿Cómo manejarás la retroalimentación y los errores? ¿Habrá límites de intentos, puntuación, tiempo límite, o será una experiencia de práctica libre sin presión?
+4. Funcionalidades de Plataforma y Persistencia
+¿Cómo se gestionará el contenido de los ejercicios? ¿Serán textos predeterminados estáticos, o el usuario podrá cargar/pegar sus propios textos (ej. PDFs, artículos) para adaptarlos al formato accesible?
+¿Se requiere registro de usuarios? ¿El progreso y la configuración de accesibilidad se guardarán localmente en el navegador (LocalStorage) o mediante una base de datos con inicio de sesión?
+5. Arquitectura Técnica e Integración
+¿Con qué stack de desarrollo planeas construirla? (Ej. HTML/JS plano, React con Tailwind CSS, Next.js, etc.).
+¿Se integrará algún servicio externo? (Ej. APIs de inteligencia artificial para simplificar textos complejos o APIs avanzadas de síntesis de voz).
+¿Hay alguna de estas áreas en la que ya tengas una decisión tomada para ajustar de una vez el prompt definitivo?
+
+
+Prompt 2 (Con el que se hizo la pagina, como se ve el prompt pasado quedo partido pero chat pudo tener ideas y coger atrinutos de ese):
+Design a web app for reading practice for people with dyslexia
+
+Versions: two visual versions, one for children (ages 7-12) and one for adults.
+
+Language: all interface text must be in Spanish.
+
+General style
+
+Minimalist, low distraction, strong visual hierarchy.
+Soft cream or pastel backgrounds, never pure white.
+Lexend typeface, large letters, generous letter and line spacing.
+Clear icons accompanying every text label.
+Large buttons with rounded corners.
+Calm colors that convey trust and motivation.
+
+Children’s version
+
+Bright colors and illustrations.
+A cute animal companion with a short, easy-to-remember name that guides the child and celebrates their achievements.
+
+Adult version
+
+Sober and clean design.
+A more mature companion character with a supportive tone.
+
+Screens
+
+Welcome: choose between the children’s or adult version.
+Initial test: a conversation with the companion, one question per screen, with a progress bar.
+Adaptive reading: large text with an always-visible settings panel (font, size, spacing, background, reading ruler, voice button).
+Exercises:
+b/d letter discrimination.
+Building syllables by dragging elements.
+Multiple choice with audio.
+Progress: progress bars and badges/medals, always with positive messages.
+
+
+
+y ya los detalles se los aclaramos en el chat que fueron uno o dos, asi que por eso no los inclui en el prompt o como prompt 3
