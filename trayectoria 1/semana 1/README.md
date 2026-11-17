@@ -152,3 +152,74 @@ Tambien entendi que no siempre podemos estar seguros de que un mensaje sea bueno
 - Conclusion
 
 Con este reto aprendi a clasificar mensajes utilizando pistas y reglas sencillas, tambien comprendi que reconocer patrones nos ayuda a tomar decisiones y que este proceso se parece a la forma en la que algunos sistemas clasifican informacion.
+
+Reto 3 - Diseña el primer asistente
+
+- Descripcion
+
+En este reto diseñe un asistente virtual llamado CodeTutor que tiene como objetivo ayudar a los estudiantes que estan aprendiendo programacion.
+
+La idea es que los estudiantes puedan hacer preguntas sobre temas de programacion y recibir explicaciones sencillas con ejemplos que les ayuden a entender mejor, este boceto me ayude de chat gpt para crear mi boceto.
+
+- Herramientas utilizadas
+
+- ChatGPT
+- Diseño en formato PNG
+
+- Como funciona
+
+Primero pense en una necesidad que tienen algunos estudiantes al momento de aprender programacion, y despues diseñe una pantalla donde el estudiante puede escribir una pregunta y recibir una respuesta del asistente, tambien cree un recorrido de 6 pasos para mostrar como funcionaria CodeTutor.
+
+En ese recorrido utilice tres letras:
+
+- * R: son las reglas que sigue el sistema
+- * M: es el modelo de inteligencia artificial que analiza las preguntas y genera las respuestas
+- * H: es la parte donde una persona puede revisar la informacion
+
+El funcionamiento seria el siguiente:
+
+1. El estudiante escribe una pregunta
+2. El sistema revisa si la pregunta es sobre programacion
+3. La inteligencia artificial analiza la pregunta
+4. La inteligencia artificial genera una explicacion con un ejemplo
+5. Un profesor puede revisar la respuesta si es necesario
+6. El sistema muestra la respuesta al estudiante
+
+- Diseño del asistente
+
+El asistente cuenta con una pantalla de chat donde el estudiante puede escribir sus preguntas, tambien tiene un espacio donde se muestran las respuestas y ejemplos de codigo.
+
+En la parte inferior agrege un mensaje que informa que el asistente puede cometer errores y que algunas respuestas deben ser revisadas por un profesor.
+
+
+- Pruebas del diseño
+
+    * Prueba 1
+
+    * Pregunta:
+    Que es una variable en JavaScript
+
+    * Respuesta esperada:
+    El asistente explica que una variable sirve para guardar informacion y muestra un ejemplo sencillo.
+
+    * Resultado:
+    El boceto muestra como seria esta respuesta.
+
+    * Prueba 2
+
+    * Pregunta:
+    Que es un ciclo for en JavaScript
+
+    * Respuesta esperada:
+    El asistente deberia explicar que un ciclo for permite repetir instrucciones y mostrar un ejemplo.
+
+    * Resultado:
+    El diseño permite representar este tipo de preguntas aunque todavia no es una aplicacion funcional.
+
+- Que aprendi
+
+Aprendi que antes de crear una aplicacion es importante pensar en el problema que quieres resolver y en como funcionaria, tambien entendi que la inteligencia artificial puede ayudar a responder preguntas pero necesita reglas y en algunos casos la revision de una persona y con esta misma podemos tener respuesta e informacion mas rapidaente.
+
+- Conclusion
+
+Con este reto aprendi a diseñar un asistente virtual que puede ayudar a los estudiantes a entender temas de programacion, tambien comprendi la importancia de establecer limites para que el asistente no proporcione informacion incorrecta sin advertirlo.
