@@ -1,0 +1,53 @@
+RETO 2: ENTRENA A UN CLASIFICADOR HUMANO
+
+1. CLASIFICACIÓN DE LOS MENSAJES
+
+Mensaje 1:
+Ganaste un premio. Haz clic para reclamarlo.
+Clasificación: No deseado.
+
+Mensaje 2:
+Oferta exclusiva: paga hoy y recibe el doble.
+Clasificación: No deseado.
+
+Mensaje 3:
+Tu cuenta sera bloqueada. Entra a este enlace y confirma tu clave.
+Clasificación: No deseado.
+
+Mensaje 4:
+La clase de mañana comienza a las 10:00.
+Clasificación: Deseado.
+
+Mensaje 5:
+La entrega del proyecto sera el viernes.
+Clasificación: Deseado.
+
+Mensaje 6:
+Adjunto el acta de la reunión del equipo.
+Clasificación: Deseado.
+
+2. PISTAS PARA IDENTIFICAR MENSAJES NO DESEADOS
+
+- Promesas de premios inesperados.
+- Ofertas con ganancias exageradas.
+- Solicitudes de contraseñas o datos personales.
+- Amenazas de bloqueo de cuentas.
+- Presión para realizar acciones rápidamente.
+- Enlaces sospechosos.
+
+3. REGLAS DE CLASIFICACIÓN
+
+Regla 1:
+Si un mensaje promete un premio inesperado y solicita ingresar a un enlace, se clasifica como no deseado.
+
+Regla 2:
+Si un mensaje solicita contraseñas o información privada mediante amenazas, se clasifica como no deseado.
+
+Regla 3:
+Si un mensaje ofrece ganancias exageradas y presiona para realizar un pago, se clasifica como no deseado.
+
+Regla 4:
+Si un mensaje comunica información académica o laboral sin señales sospechosas, se clasifica como deseado.
+
+Regla 5:
+Si un mensaje no tiene información suficiente para determinar su clasificación, se marca como pendiente de revisión.
